@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VisionPoint Landing Page Components – Process / Timeline Variations</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-light">
+
+    <div class="container py-5">
+
+        <!-- Page Heading -->
+        <header class="mb-5">
+            <h1 class="text-center">Landing Page Components</h1>
+            <p class="text-center lead">Process / Timeline Variations – VisionPoint Resource</p>
+        </header>
+
+        <!-- ===================================== -->
+        <!-- Process A – Horizontal Timeline -->
+        <!-- ===================================== -->
+        <section class="py-5">
+            <h2 class="mb-4">Process A – Horizontal Timeline</h2>
+            <div class="container bg-white p-5 rounded shadow-sm text-center">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-3">
+                        <img src="https://placehold.co/60x60?text=1" class="mb-3" alt="Step 1">
+                        <h5 class="fw-bold">Apply Online</h5>
+                        <p class="small mb-0">Complete the application form in just 10 minutes.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://placehold.co/60x60?text=2" class="mb-3" alt="Step 2">
+                        <h5 class="fw-bold">Meet With an Advisor</h5>
+                        <p class="small mb-0">Schedule a one-on-one to review your goals and options.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://placehold.co/60x60?text=3" class="mb-3" alt="Step 3">
+                        <h5 class="fw-bold">Enroll in Courses</h5>
+                        <p class="small mb-0">Choose your start date and register for classes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================== -->
+        <!-- Process B – Numbered Vertical List -->
+        <!-- ===================================== -->
+        <section class="py-5">
+            <h2 class="mb-4">Process B – Numbered Vertical List</h2>
+            <div class="container bg-white p-5 rounded shadow-sm">
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item">
+                        <h6 class="fw-bold">Step 1: Submit Your Application</h6>
+                        <p class="mb-1">Apply using our simple online form. No transcripts required at this stage.</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h6 class="fw-bold">Step 2: Get Personalized Support</h6>
+                        <p class="mb-1">Our admissions counselors will help you choose the best path forward.</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h6 class="fw-bold">Step 3: Start Learning</h6>
+                        <p class="mb-1">Access your classes, connect with faculty, and begin your journey.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ===================================== -->
+        <!-- Process C – Accordion Steps -->
+        <!-- ===================================== -->
+        <section class="py-5">
+            <h2 class="mb-4">Process C – Accordion Steps</h2>
+            <div class="container bg-white p-5 rounded shadow-sm">
+                <div class="accordion" id="processAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#stepOne" aria-expanded="true">
+                                Step 1: Apply Online
+                            </button>
+                        </h2>
+                        <div id="stepOne" class="accordion-collapse collapse show" data-bs-parent="#processAccordion">
+                            <div class="accordion-body">
+                                Fill out our free application form. It takes less than 15 minutes and requires no test
+                                scores.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#stepTwo">
+                                Step 2: Submit Documents
+                            </button>
+                        </h2>
+                        <div id="stepTwo" class="accordion-collapse collapse" data-bs-parent="#processAccordion">
+                            <div class="accordion-body">
+                                Upload transcripts and any relevant materials. We’ll walk you through it step by step.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#stepThree">
+                                Step 3: Register for Classes
+                            </button>
+                        </h2>
+                        <div id="stepThree" class="accordion-collapse collapse" data-bs-parent="#processAccordion">
+                            <div class="accordion-body">
+                                Meet with your advisor, pick your courses, and get ready to start.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
